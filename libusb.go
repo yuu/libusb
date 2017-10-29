@@ -11,6 +11,7 @@ package libusb
 
 /*
 #cgo pkg-config: libusb-1.0
+#cgo LDFLAGS: -ludev
 #include <libusb-1.0/libusb.h>
 
 // When a C struct ends with a zero-sized field, but the struct itself is not zero-sized,
